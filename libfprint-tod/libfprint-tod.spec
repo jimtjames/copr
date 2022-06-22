@@ -21,7 +21,8 @@ BuildRequires:  pkgconfig(pixman-1)
 BuildRequires:  gtk-doc
 # For the udev.pc to install the rules
 BuildRequires:  systemd
-BuildRequires:  libgudev
+BuildRequires:  cmake
+BuildRequires:  libgudev-devel
 BuildRequires:  gobject-introspection-devel
 # For internal CI tests; umockdev 0.13.2 has an important locking fix
 BuildRequires:  python3-cairo python3-gobject cairo-devel
