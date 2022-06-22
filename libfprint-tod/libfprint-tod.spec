@@ -56,7 +56,7 @@ mkdir -vp %{buildroot}/usr/lib64/libfprint-2/tod-1
 %ldconfig_scriptlets
 
 %check
-%meson_test
+
 
 %files
 %license COPYING
