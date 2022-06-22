@@ -23,6 +23,8 @@ BuildRequires:  gtk-doc
 BuildRequires:  systemd
 BuildRequires:  cmake
 BuildRequires:  libgudev-devel
+BuildRequires:  gdb
+BuildRequires:  valgrind
 BuildRequires:  gobject-introspection-devel
 # For internal CI tests; umockdev 0.13.2 has an important locking fix
 BuildRequires:  python3-cairo python3-gobject cairo-devel
