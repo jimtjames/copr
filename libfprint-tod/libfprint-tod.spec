@@ -1,6 +1,6 @@
 Name:           libfprint-tod
 
-Version:        1.94.2+tod1
+Version:        1.94.3+tod1
 Release:        2%{?dist}
 Summary:        Toolkit for fingerprint scanner (TOD version)
 
@@ -56,6 +56,7 @@ mkdir -vp %{buildroot}/usr/lib64/libfprint-2/tod-1
 %ldconfig_scriptlets
 
 %check
+%meson_test
 
 %files
 %license COPYING
