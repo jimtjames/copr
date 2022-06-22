@@ -64,6 +64,7 @@ mkdir -vp %{buildroot}/usr/lib64/libfprint-2/tod-1
 %{_libdir}/*.so.*
 %{_libdir}/girepository-1.0/*.typelib
 /usr/lib/udev/hwdb.d/60-autosuspend-libfprint-2.hwdb
+/usr/lib/udev/rules.d/70-libfprint-2.rules
 %dir /usr/lib64/libfprint-2/tod-1
 
 
